@@ -8,6 +8,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![screenshot](https://i.imgur.com/9FPO3yR.png)
+![screenshot](https://i.imgur.com/1uUAF23.png)
+
 ### Installation Instructions
 **Google Chrome / Microsoft Edge** 
 
