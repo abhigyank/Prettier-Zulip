@@ -1,0 +1,16 @@
+{
+    "name": "Prettier Zulip",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Zulip, but prettier.",
+    "icons": {
+        "32": "icons/32x32.png",
+        "48": "icons/48x48.png",
+        "128": "icons/128x128.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://*.zulipchat.com/*", "*://*.zulip.org/*", "*://*.zulip.com/*"],
+        "css": ["styles.css"]
+    }],
+    "permissions": ["activeTab", "storage", "declarativeContent"]
+}
