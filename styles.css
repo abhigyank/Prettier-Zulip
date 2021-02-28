@@ -1,9 +1,3 @@
-.app-main,
-.header-main,
-#compose-container {
-  max-width: none !important;
-}
-
 body,
 .app-main,
 #compose,
