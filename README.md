@@ -15,7 +15,7 @@
 1. Unzip the file and you should have a folder named `Prettier-Zulip`.
 1. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
 1. Enable Developer Mode.
-1. Drag the `Prettier-Zulip-master` folder anywhere on the page to import it (do not delete the folder afterwards).
+1. Drag the `Prettier-Zulip-main` folder anywhere on the page to import it (do not delete the folder afterwards).
 
 **Firefox** 
 
@@ -24,6 +24,13 @@
 1. In Firefox go to `about:debugging#/runtime/this-firefox`.
 1. Click on `Load Temporary Add-on`.
 1. Navigate to the `Prettier-Zulip` folder you downloaded and select the `manifest.json` file in there(do not delete the folder afterwards).
+
+##### Install with auto-update support (Recommended on Chrome/Edge)
+
+1. Download the `Prettier-Zulip.crx` file from the [latest release on GitHub](https://github.com/abhigyank/Prettier-Zulip/releases).
+1. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
+1. Enable Developer Mode.
+1. Drag the `Prettier-Zulip.crx` file anywhere on the page to install it.
 
 ### Disclaimer
 * This software is provided for educational purposes only and

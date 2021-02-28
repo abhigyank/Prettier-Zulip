@@ -12,5 +12,6 @@
         "matches": ["*://*.zulipchat.com/*", "*://*.zulip.org/*", "*://*.zulip.com/*"],
         "css": ["styles.css"]
     }],
-    "permissions": ["activeTab", "storage", "declarativeContent"]
+    "permissions": ["activeTab", "storage", "declarativeContent"],
+    "update_url": "https://raw.githubusercontent.com/abhigyank/Prettier-Zulip/main/updates/updates.xml"
 }
