@@ -10,7 +10,9 @@
     },
     "content_scripts": [{
         "matches": ["*://*.zulipchat.com/*", "*://*.zulip.org/*", "*://*.zulip.com/*"],
-        "css": ["styles.css"]
+        "css": ["styles.css"],
+        "js": ["vendor/require.js", "content.js"],
+        "run_at": "document_idle"
     }],
     "permissions": ["activeTab", "storage", "declarativeContent"],
     "update_url": "https://raw.githubusercontent.com/abhigyank/Prettier-Zulip/main/updates/updates.xml"
